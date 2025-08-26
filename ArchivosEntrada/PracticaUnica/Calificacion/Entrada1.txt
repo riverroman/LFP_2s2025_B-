@@ -1,0 +1,111 @@
+Llamadas procesadas
+┌─────────────┬───────────────┬──────┬───────────┬─────────────┐
+│ id_operator │ name_operator │ rate │ id_client │ name_client │
+├─────────────┼───────────────┼──────┼───────────┼─────────────┤
+│ 1           │ Sergio        │ 3    │ 301       │ Marcos      │
+│ 2           │ Giulia        │ 2    │ 302       │ Valeria     │
+│ 3           │ Andrés        │ 4    │ 303       │ Sofía       │
+│ 4           │ Paola         │ 1    │ 304       │ Camilo      │
+│ 5           │ Elena         │ 3    │ 305       │ Romina      │
+│ 6           │ Nicolás       │ 3    │ 306       │ Emiliano    │
+│ 2           │ Giulia        │ 3    │ 307       │ Renata      │
+│ 3           │ Andrés        │ 5    │ 308       │ Claudia     │
+│ 4           │ Paola         │ 2    │ 309       │ Francisco   │
+│ 1           │ Sergio        │ 1    │ 310       │ Martina     │
+│ 6           │ Nicolás       │ 4    │ 311       │ Felipe      │
+│ 5           │ Elena         │ 4    │ 312       │ Carolina    │
+│ 3           │ Andrés        │ 3    │ 313       │ Julieta     │
+│ 2           │ Giulia        │ 2    │ 314       │ Tomás       │
+│ 4           │ Paola         │ 3    │ 315       │ Ana         │
+│ 6           │ Nicolás       │ 4    │ 316       │ Ricardo     │
+│ 1           │ Sergio        │ 2    │ 317       │ Valentina   │
+│ 5           │ Elena         │ 3    │ 318       │ Luis        │
+│ 2           │ Giulia        │ 1    │ 319       │ Isabella    │
+│ 3           │ Andrés        │ 3    │ 320       │ Gabriel     │
+│ 4           │ Paola         │ 5    │ 321       │ Lara        │
+│ 6           │ Nicolás       │ 2    │ 322       │ Federico    │
+│ 1           │ Sergio        │ 4    │ 323       │ Daniela     │
+│ 5           │ Elena         │ 1    │ 324       │ Esteban     │
+│ 2           │ Giulia        │ 4    │ 325       │ Lucía       │
+│ 3           │ Andrés        │ 3    │ 326       │ Roberto     │
+│ 6           │ Nicolás       │ 3    │ 327       │ Magdalena   │
+│ 4           │ Paola         │ 2    │ 328       │ Ignacio     │
+│ 1           │ Sergio        │ 4    │ 329       │ Constanza   │
+│ 5           │ Elena         │ 4    │ 330       │ Alonso      │
+└─────────────┴───────────────┴──────┴───────────┴─────────────┘
+Listado de Operadores
+┌────┬─────────┐
+│ id │ name    │
+├────┼─────────┤
+│ 1  │ Sergio  │
+│ 2  │ Giulia  │
+│ 3  │ Andrés  │
+│ 4  │ Paola   │
+│ 5  │ Elena   │
+│ 6  │ Nicolás │
+└────┴─────────┘
+Listado de Clientes
+┌─────┬───────────┐
+│ id  │ name      │
+├─────┼───────────┤
+│ 301 │ Marcos    │
+│ 302 │ Valeria   │
+│ 303 │ Sofía     │
+│ 304 │ Camilo    │
+│ 305 │ Romina    │
+│ 306 │ Emiliano  │
+│ 307 │ Renata    │
+│ 308 │ Claudia   │
+│ 309 │ Francisco │
+│ 310 │ Martina   │
+│ 311 │ Felipe    │
+│ 312 │ Carolina  │
+│ 313 │ Julieta   │
+│ 314 │ Tomás     │
+│ 315 │ Ana       │
+│ 316 │ Ricardo   │
+│ 317 │ Valentina │
+│ 318 │ Luis      │
+│ 319 │ Isabella  │
+│ 320 │ Gabriel   │
+│ 321 │ Lara      │
+│ 322 │ Federico  │
+│ 323 │ Daniela   │
+│ 324 │ Esteban   │
+│ 325 │ Lucía     │
+│ 326 │ Roberto   │
+│ 327 │ Magdalena │
+│ 328 │ Ignacio   │
+│ 329 │ Constanza │
+│ 330 │ Alonso    │
+└─────┴───────────┘
+Rendimiento de Operadores
+┌────┬─────────┬────────────┐
+│ id │ name    │ percentage │
+├────┼─────────┼────────────┤
+│ 1  │ Sergio  │ 16.67 %    │
+│ 2  │ Giulia  │ 16.67 %    │
+│ 3  │ Andrés  │ 16.67 %    │
+│ 4  │ Paola   │ 16.67 %    │
+│ 5  │ Elena   │ 16.67 %    │
+│ 6  │ Nicolás │ 16.67 %    │
+└────┴─────────┴────────────┘
+Porcentaje de Clasificación de Llamadas
+┌────────┬────────────┐
+│ rating │ percentage │
+├────────┼────────────┤
+│ buena  │ 33.33 %    │
+│ media  │ 53.33 %    │
+│ mala   │ 13.33 %    │
+└────────┴────────────┘
+Cantidad de Llamadas por Calificación
+┌───────┬───────┐
+│ stars │ count │
+├───────┼───────┤
+│ 0     │ 0     │
+│ 1     │ 4     │
+│ 2     │ 6     │
+│ 3     │ 10    │
+│ 4     │ 8     │
+│ 5     │ 2     │
+└───────┴───────┘
