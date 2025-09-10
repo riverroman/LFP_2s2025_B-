@@ -1,0 +1,36 @@
+TORNEO {
+  nombre: "Super Liga Juvenil de América Central",
+  equipos: 3,
+  sede: "Honduras"
+}
+
+EQUIPOS {
+  equipo: "Juveniles de Oro" [
+    jugador: "Kevin López" [posicion: "DELANTERO", numero: 7, edad: 16],
+    jugador: "Luis Sánchez" [posicion: "DEFENSA", numero: 2, edad: 17]
+  ],
+  equipo: "Promesas FC" [
+    jugador: "Esteban Cruz" [posicion: "MEDIOCAMPO", numero: 8, edad: 15]
+  ],
+  equipo: "Estrellas Verdes" [
+    jugador: "Fernando Pérez" [posicion: "PORTERO", numero: 1, edad: 18]
+  ]
+}
+
+ELIMINACION {
+  semifinal: [
+    partido: "Juveniles de Oro" vs "Promesas FC" [
+      resultado: "2-1",
+      goleadores: [
+        goleador: "Kevin López" [minuto: 10],
+        goleador: "Esteban Cruz" [minuto: 50],
+        goleador: "Luis Sánchez" [minuto: 70]
+      ]
+    ]
+  ],
+  final: [
+    partido: "Juveniles de Oro" vs "Estrellas Verdes" [
+      resultado: "Pendiente"
+    ]
+  ]
+}

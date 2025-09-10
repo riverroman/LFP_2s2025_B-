@@ -1,0 +1,32 @@
+TORNEO {
+  nombre: "Liga Nacional Relámpago",
+  equipos: 2,
+  sede: "Antigua Guatemala"
+}
+
+EQUIPOS {
+  equipo: "Toros FC" [
+    jugador: "Juan Pérez" [posicion: "PORTERO", numero: 1, edad: 33],
+    jugador: "Luis Gómez" [posicion: "DELANTERO", numero: 9, edad: 21]
+  ],
+  equipo: "Halcones Rojos" [
+    jugador: "Carlos Méndez" [posicion: "DEFENSA", numero: 5, edad: 27],
+    jugador: "Pedro López" [posicion: "DELANTERO", numero: 10, edad: 24]
+  ]
+}
+
+ELIMINACION {
+  final: [
+    partido: "Toros FC" vs "Halcones Rojos" [
+      resultado: "4-2",
+      goleadores: [
+        goleador: "Luis Gómez" [minuto: 5],
+        goleador: "Luis Gómez" [minuto: 30],
+        goleador: "Pedro López" [minuto: 45],
+        goleador: "Carlos Méndez" [minuto: 60],
+        goleador: "Luis Gómez" [minuto: 70],
+        goleador: "Juan Pérez" [minuto: 89]
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,48 @@
+TORNEO {
+  nombre: "Copa Internacional Estudiantil",
+  equipos: 8,
+  sede: "México"
+}
+
+EQUIPOS {
+  equipo: "Guerreros" [
+    jugador: "Mario Torres" [posicion: "DELANTERO", numero: 11, edad: 23]
+  ],
+  equipo: "Titanes" [
+    jugador: "Raúl Martínez" [posicion: "PORTERO", numero: 1, edad: 28]
+  ],
+  equipo: "Estrellas" [
+    jugador: "David Hernández" [posicion: "DEFENSA", numero: 4, edad: 25]
+  ],
+  equipo: "Relámpagos" [
+    jugador: "Sergio López" [posicion: "MEDIOCAMPO", numero: 7, edad: 22]
+  ],
+  equipo: "Centauros" [
+    jugador: "José Morales" [posicion: "DELANTERO", numero: 9, edad: 30]
+  ],
+  equipo: "Pumas" [
+    jugador: "Andrés Ruiz" [posicion: "DEFENSA", numero: 6, edad: 21]
+  ],
+  equipo: "Águilas" [
+    jugador: "Felipe Ramírez" [posicion: "DELANTERO", numero: 10, edad: 24]
+  ],
+  equipo: "Lobos" [
+    jugador: "Ricardo Díaz" [posicion: "PORTERO", numero: 12, edad: 27]
+  ]
+}
+
+ELIMINACION {
+  cuartos: [
+    partido: "Guerreros" vs "Titanes" [resultado: "1-0"],
+    partido: "Estrellas" vs "Relámpagos" [resultado: "2-2"],
+    partido: "Centauros" vs "Pumas" [resultado: "0-3"],
+    partido: "Águilas" vs "Lobos" [resultado: "3-1"]
+  ],
+  semifinal: [
+    partido: "Guerreros" vs "Estrellas" [resultado: "2-1"],
+    partido: "Pumas" vs "Águilas" [resultado: "1-1"]
+  ],
+  final: [
+    partido: "Guerreros" vs "Pumas" [resultado: "Pendiente"]
+  ]
+}
