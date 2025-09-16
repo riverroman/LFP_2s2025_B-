@@ -7,10 +7,11 @@ TORNEO {
 EQUIPOS {
   equipo: "Leones FC" [
     jugador: "Carlos Ruiz" [posicion: "PORTERO", numero: 1, edad: 35],
-    jugador: "Mario López" [posicion: "DELANTERO", numero: 10, edad: 22]
+    jugador: "Mario López" [posicion: "DELANTERO", numero: 10, edad: 22],
+    jugador: "Pedro Martínez" [posicion: "DELANTERO", numero: 9, edad: 27]
   ],
   equipo: "Águilas United" [
-    jugador: "Diego Ramírez" [posicion: "DELANTERO", numero: 9, edad: 28],
+    jugador: "Diego Ramírez" [posicion: "DELANTERO", numero: 11, edad: 28],
     jugador: "Sofía Hernández" [posicion: "MEDIOCAMPO", numero: 8, edad: 25]
   ],
   equipo: "Cóndores FC" [
@@ -18,7 +19,7 @@ EQUIPOS {
     jugador: "Valeria Cruz" [posicion: "MEDIOCAMPO", numero: 6, edad: 27]
   ],
   equipo: "Tigres Academy" [
-    jugador: "Andrés Pérez" [posicion: "DELANTERO", numero: 11, edad: 24],
+    jugador: "Andrés Pérez" [posicion: "DELANTERO", numero: 7, edad: 24],
     jugador: "José Martínez" [posicion: "PORTERO", numero: 12, edad: 26]
   ]
 }
