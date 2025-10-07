@@ -21,14 +21,15 @@ Si el lexer encuentra un carácter desconocido, genera un objeto `ErrorL` con in
 
 #### Ejemplo de salida de tokens:
 
-```js
-[
-  Token { type: 'IDENTIFICADOR', value: 'a', line: 1, column: 1 },
-  Token { type: 'ASIGNACION', value: '=', line: 1, column: 3 },
-  Token { type: 'NUMERO', value: '34', line: 1, column: 5 },
-  Token { type: 'PUNTOYCOMA', value: ';', line: 1, column: 7 },
-  ...
-]
+    ```js
+    [
+    Token { type: 'IDENTIFICADOR', value: 'a', line: 1, column: 1 },
+    Token { type: 'ASIGNACION', value: '=', line: 1, column: 3 },
+    Token { type: 'NUMERO', value: '34', line: 1, column: 5 },
+    Token { type: 'PUNTOYCOMA', value: ';', line: 1, column: 7 },
+    ...
+    ]
+
 
 ## Parser (`Parser/parser.js`)
 
