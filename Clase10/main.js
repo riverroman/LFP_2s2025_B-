@@ -21,7 +21,7 @@ print(11+12);
 `;
 
 // ============================================================
-// 1️⃣ ANÁLISIS LÉXICO
+// 1. ANÁLISIS LÉXICO
 // ============================================================
 // Se crea una instancia del analizador léxico con el código fuente
 const lexer = new Lexer(codigo);
@@ -30,7 +30,7 @@ const lexer = new Lexer(codigo);
 const tokens = lexer.analizar();
 
 // ============================================================
-// 2️⃣ ANÁLISIS SINTÁCTICO
+// 2. ANÁLISIS SINTÁCTICO
 // ============================================================
 // Se crea una instancia del parser con la lista de tokens generados
 const parser = new Parser(tokens);
@@ -39,7 +39,7 @@ const parser = new Parser(tokens);
 const ast = parser.parse();
 
 // ============================================================
-// 3️⃣ GENERACIÓN DEL ARCHIVO DOT (Graphviz)
+// 3. GENERACIÓN DEL ARCHIVO DOT (Graphviz)
 // ============================================================
 // Convierte el AST a formato DOT para su visualización con Graphviz
 generarDot(ast);
