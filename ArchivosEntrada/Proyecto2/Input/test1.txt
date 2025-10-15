@@ -1,0 +1,11 @@
+int edad = 21;
+double altura = 1.75;
+char inicial = 'R';
+String nombre = "River";
+boolean activo = true;
+
+System.out.println("Datos del usuario:");
+System.out.println("Nombre: " + nombre);
+System.out.println("Edad: " + edad);
+System.out.println("Altura: " + altura);
+System.out.println("Activo: " + activo);

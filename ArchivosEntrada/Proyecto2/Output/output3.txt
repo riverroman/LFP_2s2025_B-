@@ -1,0 +1,10 @@
+conectado = True
+autorizado = False
+if conectado == True:
+    print("Conexión activa")
+    if autorizado == True:
+        print("Acceso concedido")
+    else:
+        print("Acceso denegado")
+else:
+    print("Sin conexión")

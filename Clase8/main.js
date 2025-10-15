@@ -10,6 +10,10 @@ import cors from "cors";
 // Importacion de nuestro lexer para el analisis de codigo
 // =========================================================
 import { Lexer } from "./Lexer/Lexer.js";
+// =========================================================
+// Importacion de nuestro parser para el analisis de codigo
+// =========================================================
+import { Parser } from "./Paser/Parser.js";
 // ============================================================
 // Inicializacion de la app para el uso del servicio de express
 // ============================================================
@@ -38,10 +42,21 @@ app.post("/analizar", (req, res) => {
   // Uso se try-catch para el manejo de errores
   // ============================================
   try {
+    // ======= Uso del Lexer
     const lexer = new Lexer(code);
     const tokens = lexer.analizar();
     const errors = lexer.errors;
-    return res.json({ tokens, errors });
+
+    // ======= Uso del parser
+    const parser = new Parser(tokens);
+    const parseResult = parser.analizar();
+
+    return res.json({
+      tokens,
+      lexicalErrors: errors,
+      syntaxErrors: parseResult.errors,
+      pythonCode: parseResult.python,
+    });
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: "Error interno al analizar" });

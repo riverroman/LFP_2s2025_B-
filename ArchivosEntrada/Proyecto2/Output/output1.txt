@@ -1,0 +1,10 @@
+edad = 21
+altura = 1.75
+inicial = "R"
+nombre = "River"
+activo = True
+print("Datos del usuario:")
+print("Nombre: " + nombre)
+print("Edad: " + edad)
+print("Altura: " + altura)
+print("Activo: " + activo)

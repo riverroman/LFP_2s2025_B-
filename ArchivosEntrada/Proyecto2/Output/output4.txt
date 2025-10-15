@@ -1,0 +1,14 @@
+a = 10
+b = 20
+suma = a + b
+resta = b - a
+mult = a * b
+div = b / 2.0
+print("Suma: " + suma)
+print("Resta: " + resta)
+print("Multiplicación: " + mult)
+print("División: " + div)
+if suma > 20:
+    print("Resultado alto")
+else:
+    print("Resultado bajo")

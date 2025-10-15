@@ -1,0 +1,9 @@
+max = 3
+mostrar = True
+if mostrar == True:
+    print("Inicio de conteo:")
+    for i in range(0, max):
+        print("Contando: " + i)
+    print("Fin del conteo")
+else:
+    print("Mostrar desactivado")

@@ -1,0 +1,13 @@
+boolean conectado = true;
+boolean autorizado = false;
+
+if (conectado == true) {
+    System.out.println("Conexión activa");
+    if (autorizado == true) {
+        System.out.println("Acceso concedido");
+    } else {
+        System.out.println("Acceso denegado");
+    }
+} else {
+    System.out.println("Sin conexión");
+}

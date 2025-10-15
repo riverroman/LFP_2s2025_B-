@@ -1,0 +1,12 @@
+int max = 3;
+boolean mostrar = true;
+
+if (mostrar == true) {
+    System.out.println("Inicio de conteo:");
+    for (int i = 0; i < max; i++) {
+        System.out.println("Contando: " + i);
+    }
+    System.out.println("Fin del conteo");
+} else {
+    System.out.println("Mostrar desactivado");
+}
